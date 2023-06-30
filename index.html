@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    
+    <title>GOAL</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: blanchedalmond;
+        }
+        .thebox{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 100vh;
+            gap: 2rem;
+          }
+        .thebox2{
+            background-color: whitesmoke;
+            padding: 10px;
+            flex: 1;
+            max-width: 400px;
+            border-radius: 10px;
+            text-align: center;
+        }  
+        .name{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .price{
+            font-weight: bolder;
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .feature{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .feature li{
+            margin-bottom: 10px;
+        }
+        .para{
+            background-color: orange;
+            border: 0;
+            margin-top: 10px;
+        }
+        @media(max-width: 1200px) {
+            .thebox{
+                flex-direction: column;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="thebox">
+            
+            <div class="thebox2">
+                <div class="name">Basic</div>
+                <div class="price"><strong>$11.99/month</strong></div>
+                
+                <ul class="feature">
+                    <li> ✅ 10GB Storage</li>
+                    <li> ✅ 1 User</li>
+                    <li> 🚫 support</li>
+                </ul>
+                <button class="para">Sign Up</button>
+            </div>
+            <div class="thebox2">
+            <div class="name">Standard</div>
+            <div class="price"><strong>$19.99/month</strong></div>
+            
+             <ul class="feature">
+                    <li> ✅ 50GB Storage</li>
+                    <li> ✅ 5 Users</li>
+                    <li> ✅ phone & email support</li>
+             </ul>
+             <button class="para">Sign Up</button>
+            </div>
+            <div class="thebox2">
+            <div class="name">premium</div>
+            <div class="price"><strong>$49.99/month</strong></div>
+            
+             <ul class="feature">
+                    <li> ✅ 10GB Storage</li>
+                    <li> ✅ 10 Users</li>
+                    <li> ✅ 24/7 support</li>
+             </ul>
+             <button class="para">Sign Up</button>
+            </div>
+      </div>      
+    
+</body>
+</html>
